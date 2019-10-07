@@ -1,0 +1,42 @@
+/* Any CSS here will apply to the entire page */
+* {
+  font-family: "Barriecito", cursive;
+}
+
+body {
+  font-family: "Barriecito", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("donkey.jpg");
+  background-size: cover;
+}
+
+#title {
+  padding: 20px;
+  text-align: center;
+}
+
+#gif-box {
+  padding: 20px;
+  background-color: black;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#joke-box {
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
